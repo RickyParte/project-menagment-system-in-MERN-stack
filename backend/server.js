@@ -11,7 +11,7 @@ mongoose.connect('mongodb+srv://sanketwalhekar83:9665998329@cluster0.sevwc.mongo
 
 
 const PORT = process.env.SERVER_PORT || 5000
-const origin = process.env.CORS_ORIGIN || '3.111.139.9:3000'
+const origin = process.env.CORS_ORIGIN || 'http://3.111.139.9:3000'
 
 const app = express()
 
