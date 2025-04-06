@@ -5,13 +5,13 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 dotenv.config()
-mongoose.connect(process.env.MONGODB_PATH, () => {
+mongoose.connect('mongodb+srv://sanketwalhekar83:9665998329@cluster0.sevwc.mongodb.net/project', () => {
     console.log('connect');
 }, (e) => console.log(e))
 
 
-const PORT = process.env.SERVER_PORT || 9000
-const origin = process.env.CORS_ORIGIN || 'http://localhost:3000'
+const PORT = process.env.SERVER_PORT || 5000
+const origin = process.env.CORS_ORIGIN || '3.111.139.9:5173'
 
 const app = express()
 
