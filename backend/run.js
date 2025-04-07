@@ -5,7 +5,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 
 dotenv.config()
-mongoose.connect('mongodb+srv://sanketwalhekar83:9665998329@cluster0.sevwc.mongodb.net/project', () => {
+mongoose.connect('mongodb+srv://sanketwalhekar83:9665998329@cluster0.sevwc.mongodb.net/Project', () => {
     console.log('connect');
 }, (e) => console.log(e))
 
